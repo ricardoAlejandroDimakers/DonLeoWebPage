@@ -1,5 +1,5 @@
-<?php include '../base.php' ?>
+<?php require_once '../base.php' ?>
 
-<?php startblock('main') ?>
-   The main content
+<?php startblock('article') ?>
+<button class="btn btn-primary" type="submit">Hola</button>
 <?php endblock() ?>

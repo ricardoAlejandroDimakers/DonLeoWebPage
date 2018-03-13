@@ -1,4 +1,6 @@
 
+<?php require_once 'ti.php' ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +16,8 @@
     <script type="text/javascript" src="../Estilos/js/mdb.min.js"></script>
 </head>
 <body>
-        <?php emptyblock('main') ?>
+            <?php startblock('article') ?>
+            <?php endblock() ?>
+            
 </body>
 </html>
